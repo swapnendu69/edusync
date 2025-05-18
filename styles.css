@@ -1,0 +1,111 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f0f2f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.menu {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Assignment Cards */
+.assignment-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.submit-btn, .download-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background: #28a745;
+    color: white;
+}
+
+.download-btn {
+    background: #007bff;
+    color: white;
+}
+
+.submission-status {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.success {
+    color: #28a745;
+}
+
+/* Add to existing styles.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Login/Register Page Adjustments */
+.login .container, .register .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+/* Reset default margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure footer stays at bottom */
+html, body {
+    height: 100%;
+}
